@@ -13,8 +13,8 @@ import geneticAlgorithm as ga
 popSize = 20
 bitwiseMut = 0.5
 nImp = 10
-starters = False
 input_file = "FDPlayerDataProcessed/players_2023-09-29.csv"
+# Optional
 output_file = None
 lineups, fitness, execTime = ga.run(popSize, bitwiseMut, nImp, input_file, output_file)
 print(execTime, fitness)
